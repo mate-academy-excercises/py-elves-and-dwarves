@@ -1,6 +1,7 @@
 from elves.elf import Elf
 from dwarves.dwarf import Dwarf
 
+
 def calculate_team_total_rating(team: list) -> int:
 
     return sum(teammate.get_rating() for teammate in team)
