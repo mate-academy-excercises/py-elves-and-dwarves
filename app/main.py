@@ -1,5 +1,5 @@
-from elves.elf import Elf
-from dwarves.dwarf import Dwarf
+from app.players.dwarves.dwarf import Dwarf
+from app.players.elves.elf import Elf
 
 
 def calculate_team_total_rating(team: list) -> int:
